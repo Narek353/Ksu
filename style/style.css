@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-image:url(../images/logo.png);
+    min-height: 25vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgb(192, 192, 192);
+    min-height: 5vh;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+}
+
+.home {
+    min-height: 100vh;
+    background-color: rgb(255, 227, 175);
+}
+#about-me {
+    min-height: 100vh;
+    background-color: rgb(147, 230, 137);
+}
+.services{
+    min-height: 100vh;
+    background-color: rgb(190, 173, 236);
+}
+.price {
+    min-height: 100vh;
+    background-color: rgb(238, 134, 139);
+}
+.diagnostics {
+    min-height: 100vh;
+    background-color: rgb(196, 231, 255);
+}
+.home-care {
+    min-height: 100vh;
+    background-color: rgb(230, 248, 126);
+}
+
+.footer {
+    height: 15vh;
+    background-color: rgb(68, 0, 255);
+
+}
