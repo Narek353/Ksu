@@ -18,6 +18,16 @@ html {
     background-position: center;
 }
 
+.call {
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    font-size: 22px;
+    margin-right: 7px;
+}
+
 .nav {
     display: flex;
     justify-content: space-evenly;
